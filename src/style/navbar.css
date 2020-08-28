@@ -1,0 +1,116 @@
+*{
+	 margin: 0;
+	 padding:0;
+	 align-items: center;
+}
+nav{
+	 background-color: white;
+}
+
+.bar{
+	 width: 30px;
+	 height: 4px;
+	 margin: 4px;
+	 background-color: black;
+	  align-items: center;
+}
+.showNav
+	{
+		 height: 290px;
+		 align-items: center;
+	}
+.logoBtn{
+ display: flex;
+ justify-content: space-between;
+ background: gray;
+ border-bottom: 1px solid yellow;
+ align-items: center;
+ 
+}
+ ul{
+	 list-style: none;
+	 overflow: hidden;
+	 height: 0px;
+justify-content: space-between;
+	transition: all 0.5s ease;
+	align-items: center;
+}
+.logo a{
+	text-decoration: #FFFFFF;
+	color: black;
+	padding: 10px;
+	padding-left: 20px;
+	align-items: center;	
+}
+.logo,a:hover{
+	 text-decoration: none;
+	 color: blue;
+	 font-size: 14px;
+}
+
+ul li a{
+	 color: white;
+	 text-decoration: none;
+	 background: gray;
+	 display: block;
+	 padding:10px;
+	 padding-left: 20px;
+	font-size: 14px;
+	align-items: center;
+}
+ul li a:hover{
+	 text-decoration: none;
+	color: yellow;
+	 align-items: center;
+}
+.btn{
+  cursor: pointer;
+  display: inline-block;
+   align-items: center;
+}
+@media screen and (min-width: 640px){
+	nav{
+		background: #FFFFFF;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 20px;
+		height: auto;
+		border-color: yellow;
+	overflow: visible;
+	}
+
+	.btn
+	{
+		 display: none;
+		  height: auto;
+		  align-items: center;
+		  color: black;
+
+	}
+	ul{
+		 display: flex;
+		 height: auto;
+		  align-items: center;
+		  overflow: visible;
+
+	}
+	nav ul a{
+/*		background: transparent;
+*/	    height: auto;
+		align-items: center;
+		color: black;
+		background-color: #FFFFFF;
+		overflow: visible;
+
+	}
+  ul li a:hover{
+	color: blue;
+}
+	.showNav
+	{
+		 height: auto;
+		 align-items: center;
+		  align-items: center;
+	}
+}

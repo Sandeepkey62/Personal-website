@@ -1,0 +1,60 @@
+.icons{
+  padding: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content:space-around;
+
+}
+
+
+.icons ol li a{
+  display: flex;
+	 font-size: 34px;
+  padding: 25px 90px;
+    color: white;
+}
+.icons a{
+  transition: transform 250ms;
+  display: inline-block;
+  background-color: #F4F4F4;
+ color: black;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+
+@media only screen and (min-width: 768px) {
+li{
+    overflow: auto;
+    background-repeat: no-repeat;
+}
+.icons{
+  padding: 20px;
+  width: 20% auto;
+  height: 50% auto;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content:space-around;
+  background-repeat: no-repeat;
+  background-position: 10% 5%;
+}
+}
+
+@media only screen and (min-width: 600px) {
+.icons{
+  padding: 20px;
+  width: 20% ;
+  height: 50% auto;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content:space-around;
+  background-repeat: no-repeat;
+  background-position: 10% 6%;
+}
+
+}
+
